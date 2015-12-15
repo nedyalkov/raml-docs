@@ -1,0 +1,68 @@
+<html theme-one-dark-ui-layoutmode="auto">
+<head>
+    <link rel="stylesheet" media="all" href="./styles.css">
+
+    <link rel="stylesheet" media="all" href = './jquery-ui/jquery-ui.css'>
+    <link rel="stylesheet" media="all" href = './jquery-ui/jquery-ui.theme.css'>
+
+    <script type="text/javascript" src="./CustomElements.js"></script>
+    <script type="text/javascript" src="./ace.js"></script>
+    <script type="text/javascript" src="./ext-language_tools.js"></script>
+    <script type="text/javascript" src="./theme-tomorrow_night.js"></script>
+    <script type="text/javascript" src="./mode-xml.js"></script>
+    <script type="text/javascript" src="./mode-json.js"></script>
+    <script type="text/javascript" src="./mode-yaml.js"></script>
+    <script type="text/javascript" src="./mode-typescript.js"></script>
+
+    <script type="text/javascript" src="./jquery-1.11.3.min.js"></script>
+
+    <script type="text/javascript" src="./jquery-ui/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="./jquery.ui-contextmenu.js"></script>
+</head>
+<body class="platform-darwin is-blurred">
+
+<atom-workspace class="workspace scrollbars-visible-always theme-one-dark-syntax theme-one-dark-ui" tabindex="-1">
+    <atom-workspace-axis id='root-workspace-axis' class="horizontal">
+
+        <atom-panel-container class="left">
+            <atom-panel class="left tool-panel panel-left">
+                <div class="scrollpad pane-item padded" style="position: relative; overflow:scroll; height: 100%;">
+                    <div id="fs-tree-panel">
+
+
+                    </div>
+                </div>
+            </atom-panel>
+        </atom-panel-container>
+        <atom-workspace-axis class="vertical">
+            <atom-pane-container id = "root-pane-container"class="panes">
+
+            </atom-pane-container>
+            <atom-panel-container id="bottom-panel-container" style="position: relative; flex-basis: 0px;" class="bottom">
+                <atom-panel id="bottom-panel" class="bottom tool-panel panel-bottom">
+
+                </atom-panel>
+            </atom-panel-container>
+        </atom-workspace-axis>
+        <atom-panel-container id="right-panel-container" class="right">
+
+        </atom-panel-container>
+    </atom-workspace-axis>
+    <atom-panel-container class="modal">
+        <atom-panel id = "modal-panel" class="modal overlay from-top">
+
+        </atom-panel>
+    </atom-panel-container>
+</atom-workspace>
+
+<div id = "mouse-tooltip" style = "position: absolute; color: white; background-color: blue; display: none;"></div>
+
+<div id= "loading-gif" style="display: none; position: absolute; background-image: url(loading.gif); width: 128px; height: 128px; left: 50%; top: 50%; margin-left: -64px; margin-top: -64px;"></div>
+
+<script type="text/javascript" src="./bundle.js"></script>
+
+
+
+</body>
+</html>
